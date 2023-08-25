@@ -1,0 +1,150 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+.header{
+	background-color: #F5FAFF;
+	padding:0 135px;
+	height: 10vh;
+	display:flex;
+	position: fixed;
+	width: 100%;
+	justify-content: space-between;
+	align-items: center;
+	
+}
+.header ul{
+	display: flex;
+	justify-content: space-between;
+	width: 40%;
+	list-style-type: none;
+}
+.header a{
+	background-color: black;
+	color:white;
+	padding:10px 20px;
+}
+.chumauxanh{
+	color:#1786FA;
+	font-weight: bold; 
+}
+.banner{
+	background-color: #F5FAFF;
+	padding:34px 135px;
+	display:flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 90vh;
+	
+}
+.banner h1{
+	font-size: 50px;
+	line-height: 60px;
+	letter-spacing: -1px;
+}
+.banner div{
+	width: 35%;
+}
+.what{
+	padding:50px 135px;
+	text-align: center;
+}
+.what > p{
+	width: 30%;
+	margin:0 auto;
+}
+.dong{
+	display: flex;
+	justify-content: space-between;
+	
+}
+.dong .cot{
+	
+	width: 30%;
+	padding:38px;
+}
+.cot ion-icon{
+	color:white;
+	background-color: black;
+	padding:10px;
+	border-radius: 4px;
+	font-size: 20px;
+}
+.cot p{
+	padding-bottom: 20px;
+}
+.cot a{
+	color:#1786FA;
+	border:1px solid #1786FA;
+	padding:10px 20px;
+}
+.cot:hover{
+	box-shadow: 0px 16px 32px 0px rgba(0, 0, 0, 0.05);
+}
+.cot:hover ion-icon{
+	background-color: aqua;
+}
+.cot:hover a{
+	background-color: #1786FA;
+	color:white;
+}
+.dong2{
+	background-color:antiquewhite;
+	display: flex;
+	justify-content: space-between;
+	
+}
+.dong2 .cot2{
+	width: 23%;
+	background-color: aqua;
+	text-align: left;
+	
+}
+.cot2 img{
+	width: 100%;
+}
+.cot2 div{
+	padding:10px;
+}
+.cot2 span{
+	color:gray;
+	padding:0 10px;
+}
+.explore{
+	padding:50px 135px;
+}
+.motcot{
+	width: 23%;
+	height: 300px;
+	background-color: aqua;
+	position: relative;
+}
+.cot11{
+	background-image: url("Image.png");
+	background-size: cover;
+}
+.cot22{
+	background-image: url("Image-1.png");
+	background-size: cover;
+}
+.cot33{
+	background-image: url("Image-2.png");
+	background-size: cover;
+}
+.cot44{
+	background-image: url("Image-3.png");
+	background-size: cover;
+}
+.motcot a{
+	color:white;
+	background-color: blue;
+	padding:10px 20px;
+	position: absolute;
+	
+	left:40%;
+	bottom: 0;
+	
+}
